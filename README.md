@@ -1,2 +1,1 @@
-# Website Title
-Personal website
+# Personal website
