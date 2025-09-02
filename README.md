@@ -1,2 +1,2 @@
-# Wbsite Title
+# Website Title
 Personal website
