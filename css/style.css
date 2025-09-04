@@ -125,7 +125,7 @@ main {
 }
 
 /* -------------------- Main Titles -------------------- */
-.getStarted {
+.large-title {
   display: block;
   font-weight: bold;
   text-align: center;
@@ -156,7 +156,6 @@ main {
   align-items: center;
   margin: 0 auto;
   width: 90%;
-  max-width: 400px;
 }
 
 .password-username {
@@ -169,7 +168,7 @@ main {
 .textBoxUsername, .textBoxPassword {
   width: 100%;
   padding: 8px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 10px;
   border: 1px solid black;
 }
@@ -188,7 +187,7 @@ main {
 .login-register {
   width: 100%;
   max-width: 250px;
-  padding: 10px;
+  padding: 6px;
   font-size: 16px;
   font-weight: bold;
   border-radius: 0.5em;
