@@ -14,6 +14,25 @@ body {
   color: white; /* default text color white */
 }
 
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.outlined-text {
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.12em black;
+  paint-order: stroke fill;
+}
+
+.outlined-text-large {
+  color: white;
+  font-weight: bold;
+  -webkit-text-stroke: 0.06em black;
+  paint-order: stroke fill;
+}
+
 /* -------------------- Header -------------------- */
 header {
   width: 100%;
@@ -95,11 +114,14 @@ header h1 .greenFormat {
 
 /* -------------------- Push content below header -------------------- */
 main {
-  padding-top: 15vh; /* enough space for fixed header */
+  min-height: calc(100vh - 10vh); /* Everything below the header */
+  margin-top: 10vh; /* Push content below header */
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  width: 100%;
+  gap: 20px;
+  text-align: center;
 }
 
 /* -------------------- Main Titles -------------------- */
@@ -120,12 +142,19 @@ main {
   margin: 2vh auto;
 }
 
+.picture-mkw {
+  display: block;
+  max-width: 65vw;
+  max-height: 65vh;
+  margin: 2vh auto;
+}
+
 /* -------------------- Form Container -------------------- */
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto 20px auto;
+  margin: 0 auto;
   width: 90%;
   max-width: 400px;
 }
@@ -148,11 +177,10 @@ main {
 /* -------------------- Buttons -------------------- */
 .button-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 30px;
   width: 100%;
   max-width: 400px;
 }
