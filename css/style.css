@@ -151,12 +151,12 @@ main {
 
 .picture-linkedin {
   display: block;
-  width: 200px;               /* fixed size */
+  width: 200px;
   height: 200px;
-  object-fit: cover;          /* crop to fit circle */
+  object-fit: cover; /* crop to fit circle */
   margin: 20px auto;
   border: 4px solid white;
-  border-radius: 50%;         /* perfect circle */
+  border-radius: 50%; /* perfect circle */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
 }
 
